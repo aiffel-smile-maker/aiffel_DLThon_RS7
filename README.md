@@ -1,4 +1,6 @@
-## 프로젝트 소개
+# Pascal-VOC Segmentation
+
+## 팀 소개
 
 AIFFEL Smile Maker 팀은 머신러닝을 활용하여 사람들의 삶을 더 행복하게 만들기 위해 노력하는 팀입니다.  
 우리의 프로젝트는 다양한 분야에서 인공지능 기술을 적용하여 웃음과 행복을 전파하는 것을 목표로 하고 있습니다.
@@ -12,14 +14,24 @@ AIFFEL Smile Maker 팀은 머신러닝을 활용하여 사람들의 삶을 더 �
 
 ## 프로젝트 구성원
 
-- 황준연 (팀장)
-- 윤여원 (팀원)
+- 윤여원 (팀장)
+- 황준연 (팀원)
 - 이승제 (팀원)
 
 ## 프로젝트 진행 상황 - JIRA
 
 ![image](https://github.com/aiffel-smile-maker/aiffel_DLThon_RS7/assets/85716670/7b0be010-1252-41b1-a062-56a39eb927f2)
 
+
+## 사용한 모델 
+- DeepLabV3 +
+- Unet with MobileNet
+- Unet with EffecientNet
+
 ---
 
 **AIFFEL Smile Maker Team** - 행복을 전파하는 팀
+
+
+![Grad-Cam](Grad_Cam.png)
+![SemanticSegmetation](SemanticSegmetation.png)
